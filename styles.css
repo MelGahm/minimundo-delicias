@@ -1,0 +1,90 @@
+body {
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header.banner {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 20px;
+}
+
+header.banner .logo {
+    width: 150px;
+}
+
+header.banner h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.productos-destacados {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.productos-destacados h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.categorias {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
+    justify-content: space-around;
+}
+
+.categoria {
+    width: 30%;
+    margin-bottom: 20px; /* Espacio debajo de cada combo */
+}
+
+.categoria img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.categoria h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.categoria p {
+    font-size: 16px;
+    color: #666;
+}
+
+.sobre-nosotros {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.sobre-nosotros h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilos de Redes Sociales */
+footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+footer .redes-sociales a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer .redes-sociales a:hover {
+    color: #ffcc00;
+}
